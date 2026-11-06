@@ -69,6 +69,7 @@ exclude:
   - config
   - Dockerfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -80,6 +81,11 @@ exclude:
   - README
   - tmp
   - vendor
+  - AGENTS.md
+  - docker-compose.yaml
+  - talkmap*
+  - markdown_generator
+  - scripts
 keep_files:
   - .git
   - .svn
